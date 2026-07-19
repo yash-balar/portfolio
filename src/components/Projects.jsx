@@ -4,8 +4,17 @@ import Dvivid from "../assets/dvivid.png"
 import Deal from "../assets/deal.png"
 import Resume from "../assets/resume.png"
 import Ball from "../assets/ball.png"
+import DMCommerce from "../assets/dm-commerce.png"
 
 const projects = [
+  {
+    title: "DM Commerce-(CMS)",
+    description:
+      "DM Commerce — Appointment Booking & Business Management PWA",
+    image: DMCommerce,
+    tags: ["React.js", "Typescript", "Vite PWA", "ShadcnUI", "React Query (TanStack)"],
+    link: "https://app.opmatique.com/",
+  },
   {
     title: "Easysell-(CMS)",
     description:

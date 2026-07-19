@@ -1,4 +1,7 @@
 import React from 'react'
+import { FaCss3Alt, FaGithub, FaHtml5 } from 'react-icons/fa';
+import { IoLogoJavascript } from "react-icons/io5";
+import { SiClaude, SiGithubcopilot, SiNestjs, SiSocketdotio } from 'react-icons/si'
 
 const Skills = () => {
   return (
@@ -74,7 +77,7 @@ const Skills = () => {
         </svg>
       </div>
       <span className="text-sm font-medium text-gray-300 group-hover:text-white transition-colors duration-300">
-        React
+        React.js
       </span>
     </div>
   
@@ -101,6 +104,34 @@ const Skills = () => {
         Redux
       </span>
     </div>
+    <div
+          className=" group p-4 flex flex-col items-center  rounded-xl border border-blue-500/30 group bg-gray-900/30 hover:bg-gray-800/50 transition-all duration-500"
+          style={{ opacity: 1, transform: "none" }}
+        >
+          <div className="w-12 h-12 mb-3 flex items-center justify-center">
+
+<FaHtml5 className="text-orange-600 text-4xl" />
+          </div>
+          <span className="text-sm font-medium text-gray-300 group-hover:text-white transition-colors duration-300">
+            HTML
+          </span>
+        </div>
+     <div
+          className=" group p-4 flex flex-col items-center  rounded-xl border border-blue-500/30 group bg-gray-900/30 hover:bg-gray-800/50 transition-all duration-500"
+          style={{ opacity: 1, transform: "none" }}
+        >
+          <div className="w-12 h-12 mb-3 flex items-center justify-center">
+
+
+          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" 
+          className="w-10 h-10 text-yellow-400 group-hover:scale-110 transition-transform duration-500"
+          height="1em"
+          width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M32 32v448h448V32zm240 348c0 43.61-25.76 64.87-63.05 64.87-33.68 0-53.23-17.44-63.15-38.49l34.28-20.75c6.61 11.73 11.63 21.65 26.06 21.65 12 0 21.86-5.41 21.86-26.46V240h44zm99.35 63.87c-39.09 0-64.35-17.64-76.68-42L329 382c9 14.74 20.75 24.56 41.5 24.56 17.44 0 27.57-7.72 27.57-19.75 0-14.43-10.43-19.54-29.68-28l-10.52-4.52c-30.38-12.92-50.52-29.16-50.52-63.45 0-31.57 24.05-54.63 61.64-54.63 26.77 0 46 8.32 59.85 32.68L396 290c-7.22-12.93-15-18-27.06-18-12.33 0-20.15 7.82-20.15 18 0 12.63 7.82 17.74 25.86 25.56l10.52 4.51c35.79 15.34 55.94 31 55.94 66.16.01 37.9-29.76 57.64-69.76 57.64"></path></svg>
+          </div>
+          <span className="text-sm font-medium text-gray-300 group-hover:text-white transition-colors duration-300">
+            Javascript
+          </span>
+        </div>
     <div
       className=" group p-4 flex flex-col items-center  rounded-xl border border-blue-500/30 group bg-gray-900/30 hover:bg-gray-800/50 transition-all duration-500"
       style={{ opacity: 1, transform: "none" }}
@@ -144,7 +175,7 @@ const Skills = () => {
         </svg>
       </div>
       <span className="text-sm font-medium text-gray-300 group-hover:text-white transition-colors duration-300">
-        Tailwind
+        Tailwind CSS
       </span>
     </div>
     <div
@@ -170,29 +201,17 @@ const Skills = () => {
         Bootstrap
       </span>
     </div>
-    <div
-      className=" group p-4 flex flex-col items-center  rounded-xl border border-blue-500/30 group bg-gray-900/30 hover:bg-gray-800/50 transition-all duration-500"
-      style={{ opacity: 1, transform: "none" }}
-    >
-      <div className="w-12 h-12 mb-3 flex items-center justify-center">
-        <svg
-          stroke="currentColor"
-          fill="currentColor"
-          strokeWidth={0}
-          role="img"
-          viewBox="0 0 24 24"
-          className="w-10 h-10 text-pink-600 group-hover:scale-110 transition-transform duration-500"
-          height="1em"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
+     <div
+          className=" group p-4 flex flex-col items-center  rounded-xl border border-blue-500/30 group bg-gray-900/30 hover:bg-gray-800/50 transition-all duration-500"
+          style={{ opacity: 1, transform: "none" }}
         >
-          <path d="M12 0c6.627 0 12 5.373 12 12s-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0zM9.615 15.998c.175.645.156 1.248-.024 1.792l-.065.18c-.024.061-.052.12-.078.176-.14.29-.326.56-.555.81-.698.759-1.672 1.047-2.09.805-.45-.262-.226-1.335.584-2.19.871-.918 2.12-1.509 2.12-1.509v-.003l.108-.061zm9.911-10.861c-.542-2.133-4.077-2.834-7.422-1.645-1.989.707-4.144 1.818-5.693 3.267C4.568 8.48 4.275 9.98 4.396 10.607c.427 2.211 3.457 3.657 4.703 4.73v.006c-.367.18-3.056 1.529-3.686 2.925-.675 1.47.105 2.521.615 2.655 1.575.436 3.195-.36 4.065-1.649.84-1.261.766-2.881.404-3.676.496-.135 1.08-.195 1.83-.104 2.101.24 2.521 1.56 2.43 2.1-.09.539-.523.854-.674.944-.15.091-.195.12-.181.181.015.09.091.09.21.075.165-.03 1.096-.45 1.141-1.471.045-1.29-1.186-2.729-3.375-2.7-.9.016-1.471.091-1.875.256-.03-.045-.061-.075-.105-.105-1.35-1.455-3.855-2.475-3.75-4.41.03-.705.285-2.564 4.8-4.814 3.705-1.846 6.661-1.335 7.171-.21.733 1.604-1.576 4.59-5.431 5.024-1.47.165-2.235-.404-2.431-.615-.209-.225-.239-.24-.314-.194-.12.06-.045.255 0 .375.12.3.585.825 1.396 1.095.704.225 2.43.359 4.5-.45 2.324-.899 4.139-3.405 3.614-5.505l.073.067z" />
-        </svg>
-      </div>
-      <span className="text-sm font-medium text-gray-300 group-hover:text-white transition-colors duration-300">
-        SCSS
-      </span>
-    </div>
+          <div className="w-12 h-12 mb-3 flex items-center justify-center">
+<FaCss3Alt color="#1572B6" className='text-4xl'/>
+          </div>
+          <span className="text-sm font-medium text-gray-300 group-hover:text-white transition-colors duration-300">
+            CSS
+          </span>
+        </div>
     <div
       className=" group p-4 flex flex-col items-center  rounded-xl border border-blue-500/30 group bg-gray-900/30 hover:bg-gray-800/50 transition-all duration-500"
       style={{ opacity: 1, transform: "none" }}
@@ -246,6 +265,18 @@ const Skills = () => {
   </span>
 </div>
 <div
+          className=" group p-4 flex flex-col items-center  rounded-xl border border-blue-500/30 group bg-gray-900/30 hover:bg-gray-800/50 transition-all duration-500"
+          style={{ opacity: 1, transform: "none" }}
+        >
+          <div className="w-12 h-12 mb-3 flex items-center justify-center">
+
+<SiSocketdotio className="text-white  text-4xl" />
+          </div>
+          <span className="text-sm font-medium text-gray-300 group-hover:text-white transition-colors duration-300">
+            Socket.IO
+          </span>
+        </div>
+<div
   className="group p-4 flex flex-col items-center rounded-xl border border-blue-500/30 bg-gray-900/30 hover:bg-gray-800/50 transition-all duration-500"
 >
   <div className="w-20 h-12 mb-3 flex items-center justify-center">
@@ -272,29 +303,7 @@ const Skills = () => {
   </span>
 </div>
 
-    <div
-      className=" group p-4 flex flex-col items-center  rounded-xl border border-blue-500/30 group bg-gray-900/30 hover:bg-gray-800/50 transition-all duration-500"
-      style={{ opacity: 1, transform: "none" }}
-    >
-      <div className="w-12 h-12 mb-3 flex items-center justify-center">
-        <svg
-          stroke="currentColor"
-          fill="currentColor"
-          strokeWidth={0}
-          role="img"
-          viewBox="0 0 24 24"
-          className="w-10 h-10 text-green-400 group-hover:scale-110 transition-transform duration-500"
-          height="1em"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path d="M11.9 1.036c-.015-.986-1.26-1.41-1.874-.637L.764 12.05C-.33 13.427.65 15.455 2.409 15.455h9.579l.113 7.51c.014.985 1.259 1.408 1.873.636l9.262-11.653c1.093-1.375.113-3.403-1.645-3.403h-9.642z" />
-        </svg>
-      </div>
-      <span className="text-sm font-medium text-gray-300 group-hover:text-white transition-colors duration-300">
-        Supabase
-      </span>
-    </div>
+  
     <div
       className=" group p-4 flex flex-col items-center  rounded-xl border border-blue-500/30 group bg-gray-900/30 hover:bg-gray-800/50 transition-all duration-500"
       style={{ opacity: 1, transform: "none" }}
@@ -343,7 +352,129 @@ const Skills = () => {
         Git
       </span>
     </div>
-   
+    <div
+          className=" group p-4 flex flex-col items-center  rounded-xl border border-blue-500/30 group bg-gray-900/30 hover:bg-gray-800/50 transition-all duration-500"
+          style={{ opacity: 1, transform: "none" }}
+        >
+          <div className="w-12 h-12 mb-3 flex items-center justify-center">
+
+<FaGithub className="text-white text-4xl" />
+          </div>
+          <span className="text-sm font-medium text-gray-300 group-hover:text-white transition-colors duration-300">
+            Github
+          </span>
+        </div>
+
+        <div
+          className=" group p-4 flex flex-col items-center  rounded-xl border border-blue-500/30 group bg-gray-900/30 hover:bg-gray-800/50 transition-all duration-500"
+          style={{ opacity: 1, transform: "none" }}
+        >
+          <div className="w-12 h-12 mb-3 flex items-center justify-center">
+
+
+            <SiNestjs className="w-10 h-10 text-red-500 group-hover:scale-110 transition-transform duration-500" />
+
+          </div>
+          <span className="text-sm font-medium text-gray-300 group-hover:text-white transition-colors duration-300">
+            Nest.js
+          </span>
+        </div>
+
+        <div
+          className=" group p-4 flex flex-col items-center  rounded-xl border border-blue-500/30 group bg-gray-900/30 hover:bg-gray-800/50 transition-all duration-500"
+          style={{ opacity: 1, transform: "none" }}
+        >
+          <div className="w-12 h-12 mb-3 flex items-center justify-center">
+            <svg
+              stroke="currentColor"
+              fill="currentColor"
+              strokeWidth={0}
+              role="img"
+              viewBox="0 0 24 24"
+              className="w-10 h-10 text-yellow-500 group-hover:scale-110 transition-transform duration-500"
+              height="1em"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M3.89 15.672L6.255.461A.542.542 0 0 1 7.27.288l2.543 4.771zm16.794 3.692l-2.25-14a.54.54 0 0 0-.919-.295L3.316 19.365l7.856 4.427a1.621 1.621 0 0 0 1.588 0zM14.3 7.147l-1.82-3.482a.542.542 0 0 0-.96 0L3.53 17.984z" />
+            </svg>
+          </div>
+          <span className="text-sm font-medium text-gray-300 group-hover:text-white transition-colors duration-300 text-center">
+            Firebase Cloud Messaging
+          </span>
+        </div>
+
+        <div
+          className=" group p-4 flex flex-col items-center  rounded-xl border border-blue-500/30 group bg-gray-900/30 hover:bg-gray-800/50 transition-all duration-500"
+          style={{ opacity: 1, transform: "none" }}
+        >
+          <div className="w-12 h-12 mb-3 flex items-center justify-center">
+            <img
+              src="https://fastspring.com/wp-content/uploads/2023/12/160xColor.png"
+              alt="FastSpring"
+              className="w-10 h-10 object-contain group-hover:scale-110 transition-transform duration-500"
+            />
+          </div>
+          <span className="text-sm font-medium text-gray-300 group-hover:text-white transition-colors duration-300">
+            FastSpring
+          </span>
+        </div>
+
+        <div
+          className=" group p-4 flex flex-col items-center  rounded-xl border border-blue-500/30 group bg-gray-900/30 hover:bg-gray-800/50 transition-all duration-500"
+          style={{ opacity: 1, transform: "none" }}
+        >
+          <div className="w-12 h-12 mb-3 flex items-center justify-center">
+            <img
+              src="https://cdn.simpleicons.org/jsonwebtokens/d63aff"
+              alt="JWT Authentication"
+              className="w-10 h-10 object-contain group-hover:scale-110 transition-transform duration-500"
+            />
+          </div>
+          <span className="text-sm font-medium text-gray-300 group-hover:text-white transition-colors duration-300 text-center">
+            JWT Authentication
+          </span>
+        </div>
+
+        <div
+          className=" group p-4 flex flex-col items-center  rounded-xl border border-blue-500/30 group bg-gray-900/30 hover:bg-gray-800/50 transition-all duration-500"
+          style={{ opacity: 1, transform: "none" }}
+        >
+          <div className="w-12 h-12 mb-3 flex items-center justify-center">
+            <img
+              src="https://vite-pwa-org.netlify.app/icon_dark.svg"
+              alt="PWA"
+              className="w-12 h-12 object-contain group-hover:scale-110 transition-transform duration-500"
+            />
+
+          </div>
+          <span className="text-sm font-medium text-gray-300 group-hover:text-white transition-colors duration-300">
+            PWA
+          </span>
+        </div>
+        <div
+          className=" group p-4 flex flex-col items-center  rounded-xl border border-blue-500/30 group bg-gray-900/30 hover:bg-gray-800/50 transition-all duration-500"
+          style={{ opacity: 1, transform: "none" }}
+        >
+          <div className="w-12 h-12 mb-3 flex items-center justify-center">
+<SiClaude color="#D97757" className='text-4xl'/>
+          </div>
+          <span className="text-sm font-medium text-gray-300 group-hover:text-white transition-colors duration-300">
+            Claude
+          </span>
+        </div>
+         <div
+          className=" group p-4 flex flex-col items-center  rounded-xl border border-blue-500/30 group bg-gray-900/30 hover:bg-gray-800/50 transition-all duration-500"
+          style={{ opacity: 1, transform: "none" }}
+        >
+          <div className="w-12 h-12 mb-3 flex items-center justify-center">
+<SiGithubcopilot color="#8957E5" className='text-4xl'/>
+          </div>
+          <span className="text-sm font-medium text-gray-300 group-hover:text-white transition-colors duration-300">
+            Github Copilot
+          </span>
+        </div>
+
   </div>
 </div>
   )

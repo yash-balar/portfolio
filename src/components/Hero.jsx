@@ -1,5 +1,5 @@
 import React from 'react'
-import DeveloperImg from '../assets/developer.jpeg'
+import DeveloperImg from '../assets/developer.jpg'
 import Resume from '../assets/Yash-Balar-Resume.pdf'
 
 const Hero = () => {
@@ -66,7 +66,7 @@ const Hero = () => {
         <p
         className="mt-3 text-muted-foreground text-lg leading-relaxed"
       >
-   I have 3.5 years of professional experience in building scalable, high-performance web applications. Skilled in developing responsive frontends, RESTful APIs, and full-stack solutions using React, Next.js, Node.js, MySQL, and GitLab.
+              I have 4.5+ years of professional experience in building scalable, high-performance web applications. Skilled in developing responsive frontends, RESTful APIs, and Mern-stack solutions using React.js, Next.js, Node.js, MySQL, and GitLab.
       </p>
       <p
         className="mt-3 text-muted-foreground text-lg leading-relaxed"

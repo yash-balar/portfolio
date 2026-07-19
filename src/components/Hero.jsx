@@ -158,7 +158,7 @@ const Hero = () => {
           </svg>
         </a>
         <a
-          href="https://www.linkedin.com/in/yash-balar"
+          href="https://www.linkedin.com/in/linkedin.com/in/yash-balar-a68730237"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
@@ -179,7 +179,7 @@ const Hero = () => {
           </svg>
         </a>
         <a
-          href="https://github.com/yash-balar"
+          href="https://yash-balar.github.io/portfolio/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub"
